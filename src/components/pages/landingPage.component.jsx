@@ -20,6 +20,8 @@ function LandingPage() {
               <ButtonsWrapper>
                 <SignUp />
                 <StyledButton size="large" disabled={true}>Take a tour</StyledButton>
+                <StyledButton size="large" onClick={()=> window.open("https://docs.google.com/presentation/d/1BOSZX_r_qw9tSglhVz3pGjxtTPj88st9ytD0I6YFQmE/edit?usp=sharing", "_blank")}>Pitch</StyledButton>
+                <StyledButton size="large" onClick={()=> window.open("", "_blank")}>Video</StyledButton>
               </ButtonsWrapper>
             </Col>
           </Row>
