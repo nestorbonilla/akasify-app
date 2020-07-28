@@ -19,7 +19,6 @@ function LandingPage() {
               <Paragraph style={{textAlign: 'justify', textJustify: 'inter-word'}}>We make the interaction between non-profit organizations and young change-makers smoothly in the process of opportunities application, and keep a decentralized and immutable record of their commitments. Be part of the community of change-makers in Latin America.</Paragraph>
               <ButtonsWrapper>
                 <SignUp />
-                <StyledButton size="large" disabled={true}>Take a tour</StyledButton>
                 <StyledButton size="large" onClick={()=> window.open("https://docs.google.com/presentation/d/1BOSZX_r_qw9tSglhVz3pGjxtTPj88st9ytD0I6YFQmE/edit?usp=sharing", "_blank")}>Pitch</StyledButton>
                 <StyledButton size="large" onClick={()=> window.open("", "_blank")}>Video</StyledButton>
               </ButtonsWrapper>
