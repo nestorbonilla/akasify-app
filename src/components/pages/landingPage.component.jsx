@@ -20,7 +20,7 @@ function LandingPage() {
               <ButtonsWrapper>
                 <SignUp />
                 <StyledButton size="large" onClick={()=> window.open("https://docs.google.com/presentation/d/1BOSZX_r_qw9tSglhVz3pGjxtTPj88st9ytD0I6YFQmE/edit?usp=sharing", "_blank")}>Pitch</StyledButton>
-                <StyledButton size="large" onClick={()=> window.open("https://youtu.be/UOVXdzeG280", "_blank")}>Video</StyledButton>
+                <StyledButton size="large" onClick={()=> window.open("https://bit.ly/2P6LsyI", "_blank")}>Video</StyledButton>
               </ButtonsWrapper>
             </Col>
           </Row>
